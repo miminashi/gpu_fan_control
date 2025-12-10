@@ -4,6 +4,13 @@
 - GPUの温度でファンの速度を動的にコントロールするためには、`rocm-smi`で温度を取得して、`ipmitool`でファンの速度を設定する必要がある
 - claudeにつくってもらった
 
+## 実行方法
+
+```sh
+chmod +x gpu_fan_control.sh
+./gpu_fan_control.sh
+```
+
 ## claudeとの会話ログ
 
 - https://claude.ai/share/24fdbaed-10c1-4612-a8b6-0bfa2f659569
